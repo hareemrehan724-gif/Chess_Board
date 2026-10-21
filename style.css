@@ -1,0 +1,47 @@
+h2{
+    text-align: center;
+    color: rgb(169, 218, 218);
+    background-color: rgb(34, 136, 136);
+}
+
+.chessboard{
+    border-collapse: collapse;
+    border: 4px solid #333
+}
+
+
+.square {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 32px; 
+}
+
+.white {
+  background-color: #fffdf9;
+}
+
+.black {
+  background-color: #b58863;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    justify-content: center;   
+    min-height: 100vh;          
+    margin: 0;
+    text-align: center;
+}
+
+
+h1{
+    font-family: Dancing Script, cursive;
+    color: rgb(116, 65, 0);
+}
+body{
+    background:linear-gradient( rgb(151, 121, 75),rgb(238, 212, 141));
+}
+
